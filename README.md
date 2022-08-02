@@ -6,6 +6,8 @@ Simple data registration form.
 
 <br>
 
+Site: https://react-multiform.netlify.app/
+
 ## Features
 
 - Add data.
