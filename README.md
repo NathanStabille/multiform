@@ -1,4 +1,4 @@
-# mMltitasking Form
+# Multitasking Form
 
 ### About
 
@@ -12,7 +12,7 @@ Simple data registration form.
 
 <br>
 <div style= "display: flex">
-<img style="border: solid 1px; margin: 3px;" src="./public/github/react-multiForm.gif">
+<img style="border: 2px solid;" src="./public/github/react-multiForm.gif">
 
 </div>
 <br>
