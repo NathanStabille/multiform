@@ -1,0 +1,29 @@
+import * as C from "./style";
+
+type Props = {
+  title: string;
+  description: string;
+  icon: string;
+  selected: boolean;
+  interaction: boolean
+  onClick?: () => void;
+};
+
+export const SelectOption = ({
+  title,
+  description,
+  icon,
+  selected,
+  onClick,
+  interaction
+}: Props) => {
+  return (
+    <C.Container selected={selected} onClick={onClick} interaction={interaction}>
+      <C.Icon>{icon}</C.Icon>
+      <C.Info>
+        <C.Title>{title}</C.Title>
+        <C.Description>{description}</C.Description>
+      </C.Info>
+    </C.Container>
+  );
+};
